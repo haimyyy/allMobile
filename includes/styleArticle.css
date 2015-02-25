@@ -1,0 +1,59 @@
+/*ARTICLE.HTML*/
+body{
+    height: 1930px;
+}
+
+
+.articleSection{
+
+    top: -55px;
+    height: 157px;
+}
+section>h4{
+    position: relative;
+    left: 388px;
+}
+
+hr{
+    width: 405px;
+}
+
+#headLines{
+    width: 72%;
+}
+
+.articles{
+    position: relative;
+    left: 21px;
+    width: 574px;
+    font-size: 13px;
+}
+
+.article1{
+    top: 448px;
+    left: 159px;
+}
+
+.article1>img{
+    float: none;
+    border: 13px solid rgb(179,179,179);
+    left: 19px;
+    position: relative;
+}
+
+.article1>h5{
+    position: relative;
+    right: 337px;
+    width: 210px;
+    top: -23px;
+}
+.article1>hr{
+    position: relative;
+    right: 333px;
+    width: 243px;
+    bottom: 19px;
+}
+
+#articleSection_2{
+    top: 505px;
+}
