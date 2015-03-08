@@ -16,22 +16,22 @@
 			<div id="topNav">
 				<ul >
 					<li>
-						<a href="#">צור קשר</a>-
+						<a href="#">צור קשר</a> -
 					</li>
 					<li>
-						<a href="#">ארועים</a>-
+						<a href="#">ארועים</a> -
 					</li>
 					<li>
-						<a href="#">חקיקה</a>-
+						<a href="#">חקיקה</a> -
 					</li>
 					<li>
-						<a href="#">מומחים</a>-
+						<a href="#">מומחים</a> -
 					</li>
 					<li>
-						<a href="#">אתרים מעניינים</a>-
+						<a href="#">אתרים מעניינים</a> -
 					</li>
 					<li>
-						<a href="#">מאמרים</a>-
+						<a href="#">מאמרים</a> -
 					</li>
 					<li>
 						<a href="#">אודות</a>
@@ -42,22 +42,22 @@
 			<nav>
 				<ul  id="mainNav">
 					<li>
-						<a href="#">תקשורת</a>|
+						<a href="#">תקשורת</a> ı
 					</li>
 					<li>
-						<a href="#">טלפונים</a>|
+						<a href="#">טלפונים</a> ı
 					</li>
 					<li>
-						<a href="#">smartphone</a>|
+						<a href="#">smartphone</a> ı
 					</li>
 					<li>
-						<a href="#">אפליקציות</a>|
+						<a href="#">אפליקציות</a> ı
 					</li>
 					<li>
-						<a href="#">Tablet</a>|
+						<a href="#">Tablet</a> ı
 					</li>
 					<li>
-						<a href="#">סביבה לעסקים</a>|
+						<a href="#">סביבה לעסקים</a> ı
 					</li>
 					<li>
 						<a href="#">סמארטפונים</a>
@@ -93,7 +93,7 @@
 				</section>
 
 				<section>
-					<img src="images/aside-v.jpg" class="asideIcon">
+					<img src="images/aside-v.jpg" class="asideIcon" id="asideIconV">
 					<h2>ארועים קרובים</h2>
 					<br>
 					<article>
@@ -176,31 +176,34 @@
 			<!--END OF ASIDE SECTION-->
 
 			<!--START OF MAIN SECTION-->
-			<img src="images/logo2.png" id="logo" />
-			<img src="images/blog.png" id="blogButton">
+			<a href="#"><img src="images/logo2.png" id="logo" /></a>
+			<a href="#"><img src="images/blog.png" id="blogButton" /></a>
 			<section id="headmMain">
-				<input type="text"  placeholder="חיפוש">
+				<input type="search"  placeholder="חפש" results="0" >
 				<img src="images/green_up.jpg" id="greenUp">
-				<h1 class="green">ALLMOBILE WE KNOW</h1>
+				<h1 class="green"><a href="#">ALLMOBILE WE KNOW</a></h1>
 				<!--<div id="triangle-bottomright" >-->
-				
+
 				<!--</div>-->
-				
+
 			</section>
 			<main>
-				<section id="section_1">
+				<section id="section_0">
 					<article class="commercial dark" id="add1" >
-					<h4>21.04.2011 | כלכליסט</h4>
-					<img src="images/add_1.jpg">
-					<h4 class="dark">המשמעות: גם השנה צפוי להגיע זרם של מיליארדי דולרים, שימשיכו ללחוץ</h4>
-				</article>
-				<a class="topArticle dark" href="business_area.html">
-					<img src="images/hp_main.jpg">
-					<h4>21.04.2011 | כלכליסט</h4>
-					<h4>חברת haier telecom היא חברת בת בתאגיד  Haier הענק, היצרן הרביעי בגודלו בעולם למכשירי סלולר</h4>
-				</a>
+						<h4 id="hCalcal">21.04.2011 | כלכליסט</h4>
+						<img src="images/add_1.jpg">
+						<p class="dark">
+							המשמעות: גם השנה צפוי להגיע זרם של מיליארדי דולרים, שימשיכו ללחוץ
+						</p>
+					</article>
+					<article id="topArticle">
+						<a href="business_area.html"> <img src="images/hp_main.jpg"> <h4>21.04.2011 | כלכליסט</h4>
+						<p>
+							חברת haier telecom היא חברת בת בתאגיד  Haier הענק, היצרן הרביעי בגודלו בעולם למכשירי סלולר
+						</p> </a>
+					</article>
 				</section>
-				<section class="newsContainer bright">
+				<section id="section_1" class="newsContainer bright">
 
 					<div>
 						<img src="images/add_2.jpg" class="adds">
@@ -212,7 +215,7 @@
 					<article>
 						<img src="images/calcalist_1.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת הדרכה שהגיע במיוחד למקדוניה, על מנת
 						</p>
 						<a class="continueReading" href="#">לקריאה מלאה</a>
@@ -221,7 +224,7 @@
 					<article>
 						<img src="images/calcalist_2.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת להרצות במדינה
 						</p>
 						<a class="continueReading" href="#">לקריאה מלאה</a>
@@ -230,7 +233,7 @@
 					<article>
 						<img src="images/calcalist_3.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת הדרכה שהגיע במיוחד למקדוניה, על מנת
 						</p>
 						<a class="continueReading" href="#">לקריאה מלאה</a>
@@ -261,7 +264,7 @@
 					<article>
 						<img src="images/calcalist_4.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת להרצות במדינה
 						</p>
 						<a id="firstHerf" class="continueReading" >לקריאה מלאה</a>
@@ -270,7 +273,7 @@
 					<article>
 						<img src="images/calcalist_5.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת להרצות במדינה
 						</p>
 						<a id="secHerf" class="continueReading" >לקריאה מלאה</a>
@@ -278,7 +281,7 @@
 					<article>
 						<img src="images/calcalist_6.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<p>
+						<p class="parg">
 							קורס של 4 ימים על ידי מדריך של ג'ון ברייס הדרכה שהגיע במיוחד למקדוניה, על מנת להרצות במדינה
 						</p>
 						<a id="thiredHerf" class="continueReading" >לקריאה מלאה</a>
@@ -330,7 +333,9 @@
 					<article id="bottomArticle" class="dark">
 						<img src="images/hp_bottom.jpg">
 						<h4>21.04.2011 | כלכליסט</h4>
-						<h4>חברת haier telecom היא חברת בת בתאגיד  Haier הענק, היצרן הרביעי בגודלו בעולם למכשירי סלולר</h4>
+						<p>
+							חברת haier telecom היא חברת בת בתאגיד  Haier הענק, היצרן הרביעי בגודלו בעולם למכשירי סלולר
+						</p>
 					</article>
 				</section>
 
@@ -340,8 +345,9 @@
 
 					<img src="images/green_down.jpg" id="greenDown">
 					<ul>
-						<li id="facebook">
-							<a href="#">הצטרף אלינו בפייסבוק</a>
+						<li>
+							<img id="facebook" src="images/facebook.jpg">
+							<a id="face" href="#">הצטרף אלינו בפייסבוק</a>
 						</li>
 						<li>
 							<a href="#">שתף</a>\
@@ -412,7 +418,7 @@
 			<footer>
 				<ul>
 					<li>
-						סיפורים חמים
+						<a href="#"> סיפורים חמים</a>
 					</li>
 					<li>
 						iPhone 5
@@ -426,7 +432,7 @@
 				</ul>
 				<ul>
 					<li>
-						סיפורים חמים
+						<a href="#"> סיפורים חמים</a>
 					</li>
 					<li>
 						iPhone 5
@@ -440,7 +446,7 @@
 				</ul>
 				<ul>
 					<li>
-						לוח אירועים
+						<a href="#">לוח אירועים</a>
 					</li>
 					<li>
 						24.3.2011 - השקת אייפון 5
@@ -460,7 +466,7 @@
 				</ul>
 				<ul>
 					<li>
-						תפריט
+						<a href="#">תפריט</a>
 					</li>
 					<li>
 						סביבה לעסקים
@@ -480,7 +486,7 @@
 				</ul>
 				<ul>
 					<li>
-						מידע כללי
+						<a href="#">מידע כללי</a>
 					</li>
 					<li>
 						אודות
@@ -498,7 +504,7 @@
 						לוח אירועים
 					</li>
 					<li>
-						צור קשר
+						<a href="#">צור קשר</a>
 					</li>
 				</ul>
 			</footer>
