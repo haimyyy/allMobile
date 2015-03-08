@@ -596,7 +596,13 @@ aside > section > p > a:hover {
 .continueReading > img {
     font-size: 13px;
 }
-
+#shenkar{
+    top: 150px;
+position: relative;
+color: #ffffff;
+font-weight: 700;
+float: right;
+}
 #facebook {
     background-repeat: no-repeat;
     top: -5px;
